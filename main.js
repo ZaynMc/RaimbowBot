@@ -3,7 +3,6 @@ const Discord = require("discord.js");
  const bot = new Discord.Client({disableEveryone: true});
  bot.commands = new Discord.Collection();
  const token = process.env.token;
- const tools = require('./function.js');
  const db = require('quick.db');
  const ms = require("ms");
 
